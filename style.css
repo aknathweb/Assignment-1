@@ -26,7 +26,7 @@
 }
 
 .flexible-box-area {
-    width: 70%;
+    width: 50%;
     margin: auto;
     padding: auto;
     text-align: center;
@@ -44,4 +44,34 @@
 
 #donate-button {
     margin-top: 3%;
+}
+
+li {
+    display: inline-block;
+    height: auto;
+    width: 10%;
+    margin: 1%;
+    padding: 3%;
+    text-align: center;
+}
+
+#auto-selected {
+    background-image: linear-gradient(white, pink);
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.second-section {
+    padding: 2%;
+    margin-bottom: 2%;
 }
