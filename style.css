@@ -54,7 +54,7 @@ li {
     border-radius: 5px;
 }
 
-input {
+#second-section-area input {
     width: 100%;
     text-align: center;
     outline: none;
@@ -81,6 +81,14 @@ h1 {
     width: 95%;
     padding-bottom: 5%;
     margin: auto;
+}
+
+#fifth-section-area {
+    width: 60%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+    text-align: center;
 }
 
 #fleible-section-4 {
@@ -124,4 +132,31 @@ footer {
 
 footer h3 {
     color: brown;
+}
+
+#sixth-section-area {
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(pink, rgb(233, 190, 190));
+    margin-bottom: 10%;
+    border-radius: 4px;
+}
+
+#sixth-section-area input[type=email] {
+    width: 40%;
+    padding: 7px 5px;
+    border: none;
+}
+
+#sixth-section-area input[type=submit] {
+    width: 10%;
+    padding: 8px 5px;
+    background-color: rgb(228, 38, 70);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
 }
