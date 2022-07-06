@@ -4,13 +4,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#first-section {
-    background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-        url(images/donation6.jpg);
+#first-section-area {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(images/donation6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    margin-bottom: 50px;
+    width: 70%;
+    padding: 15%;
+    display: flex;
+    text-align: center;
 }
 
 #first-section-title {
@@ -18,22 +20,10 @@
     font-weight: 700;
 }
 
-.section-area {
-    width: 100%;
-    height: 550px;
-    display: flex;
-    background-image: linear-gradient(180deg, red, white);
-}
-
-.flexible-box-area-1 {
-    width: 60%;
-    margin: auto;
-    padding: auto;
-    text-align: center;
-}
-
-.flexible-box-area-2 {
-    width: 90%;
+#second-section-area {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 70%;
     margin: auto;
     text-align: center;
 }
@@ -48,10 +38,6 @@
 
 }
 
-#donate-button {
-    margin-top: 3%;
-}
-
 li {
     display: inline-block;
     height: auto;
@@ -64,6 +50,7 @@ li {
 #auto-selected {
     background-image: linear-gradient(white, pink);
     border: 1px solid red;
+    color: red;
     border-radius: 5px;
 }
 
@@ -77,25 +64,54 @@ input {
     border-bottom-style: hidden;
 }
 
-.second-section {
-    padding: 2%;
-    margin-bottom: 2%;
-}
-
 h1 {
     font-size: 30px;
     font-weight: 600;
 }
 
-#fleible-section-3 {
+#third-section-area {
+    width: 85%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin: auto;
+    text-align: center;
+}
+
+#fourth-section-area {
+    width: 95%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin: auto;
+}
+
+#fleible-section-4 {
     display: flex;
     justify-content: center;
 }
 
-.fleible-section-3-item {
+.fleible-section-4-item {
+    width: 25%;
+    height: auto;
+    margin-right: 1%;
+    box-shadow: 2px 3px 20px black;
+    padding: 1.5%;
+    border-radius: 10px;
+}
 
-    width: 30%;
-    height: 200px;
-    margin-right: 0.5%;
-    border: 4px solid red;
+.fleible-section-4-item img {
+    width: 50px;
+    height: 50px;
+    text-align: left;
+}
+
+#section-4-item-1 {
+    background-image: linear-gradient(rgba(26, 10, 248, 0.2), white);
+}
+
+#section-4-item-2 {
+    background-image: linear-gradient(pink, white);
+}
+
+#section-4-item-3 {
+    background-image: linear-gradient(rgba(155, 247, 8, 0.2), white);
 }
