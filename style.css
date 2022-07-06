@@ -51,6 +51,13 @@ li {
     text-align: center;
 }
 
+li:hover {
+    background-image: linear-gradient(white, pink);
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+}
+
 #auto-selected {
     background-image: linear-gradient(white, pink);
     border: 1px solid red;
