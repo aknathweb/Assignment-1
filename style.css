@@ -6,7 +6,7 @@
 
 #first-section {
     background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-        url(/images/donation6.jpg);
+        url(images/donation6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -25,10 +25,16 @@
     background-image: linear-gradient(180deg, red, white);
 }
 
-.flexible-box-area {
+.flexible-box-area-1 {
     width: 60%;
     margin: auto;
     padding: auto;
+    text-align: center;
+}
+
+.flexible-box-area-2 {
+    width: 90%;
+    margin: auto;
     text-align: center;
 }
 
@@ -79,4 +85,17 @@ input {
 h1 {
     font-size: 30px;
     font-weight: 600;
+}
+
+#fleible-section-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.fleible-section-3-item {
+
+    width: 30%;
+    height: 200px;
+    margin-right: 0.5%;
+    border: 4px solid red;
 }
